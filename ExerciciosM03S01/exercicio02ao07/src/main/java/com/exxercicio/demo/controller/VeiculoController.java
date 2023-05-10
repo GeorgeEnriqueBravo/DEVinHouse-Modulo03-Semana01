@@ -27,6 +27,9 @@ public class VeiculoController {
     }
 
     @GetMapping
+//    public List<Veiculo> listarveiculos() {
+//        return veiculoService.buscarVeiculos();
+//    }
     public ResponseEntity<List<Veiculo>> listarveiculos() {
         return veiculoService.buscarVeiculos();
     }

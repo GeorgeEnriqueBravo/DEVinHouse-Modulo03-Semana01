@@ -34,6 +34,9 @@ public class VeiculoService {
         }
     }
 
+//    public List<Veiculo> buscarVeiculos() {
+//        return veiculoRepository.findAll();
+//    }
     public ResponseEntity<List<Veiculo>> buscarVeiculos() {
         return ResponseEntity.status(HttpStatus.OK).body(veiculoRepository.findAll());
     }
@@ -49,7 +52,7 @@ public class VeiculoService {
     public ResponseEntity<String> apagaVeiculoPorPlaca(String placa) {
 
         if (veiculoRepository.findByPlaca(placa) == null) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Desculpe, esse veículo não foi localizada no sistema!");
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Desculpe, esse veículo não foi localizado no sistema!");
         }
 
         Veiculo veiculo = veiculoRepository.findByPlaca(placa);
