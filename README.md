@@ -1,7 +1,7 @@
 # Bem vindo à DEVinHouse <img width="180px" alt="Philips" src="ExerciciosM03S01/images/logo-phil.png"/>
 ## Módulo 03 - Semana 01
 
-Repositório criado para a elaboração dos 7 exercícios referentes a **Testes Unitários** em `Spring` essa semana. <br>
+Repositório criado para a elaboração dos 7 exercícios referentes a **Testes Unitários** em `Spring` dessa semana. <br>
 
 Para visualizar os exercícios, <a href="https://github.com/GeorgeEnriqueBravo/DEVinHouse-Modulo03-Semana01/archive/refs/heads/main.zip" target="_blank">
     clique aqui
